@@ -1,0 +1,55 @@
+<fieldset>
+    <legend>Vet Search Form</legend>
+    
+<form method="post" action="vetsearch_process.php">
+<p><pre>
+Location(s): 
+<select name="location[]" size="3" multiple>
+<option value="Western Nassau">Western Nassau</option>
+<option value="Eastern Nassau">Eastern Nassau</option>
+<option value="Western Suffolk">Western Suffolk</option>
+<option value="Eastern Suffolk">Eastern Suffolk</option>
+</select>
+</pre></p>
+
+<p><pre>
+Type of Pet(s): 
+<select name="petType[]" size="3" multiple>
+<option value="Dog">Dog</option>
+<option value="Cat">Cat</option>
+<option value="Bird">Bird</option>
+<option value="Rabbit">Rabbit</option>
+<option value="Rabbit">Reptile</option>
+<option value="Farm Animal">Farm Animal</option>
+</select>
+</pre></p>
+
+<p><pre>
+Availability: 
+<select name="availability[]" size="3" multiple>
+<option value="Weekdays">Weekdays (9am - 5pm)</option>
+<option value="Weekends">Weekends (Sat - Sun)</option>
+<option value="Late Nights">Late Nights (5pm - midnight)</option>
+<option value="Early Mornings">Early Mornings (Midnight - 7am)</option>
+</select>
+</pre></p>
+
+<p><pre>
+Insurance(s) Accepted: 
+<select name="insurance[]" size="3" multiple>
+<option value="ASPCA">ASPCA</option>
+<option value="Nationwide">Nationwide</option>
+<option value="Petplan">Petplan</option>
+<option value="Healthy Paws">Healthy Paws</option>
+<option value="Trupanion">Healthy Paws</option>
+</select>
+</pre></p>
+
+<p>
+<input type="submit" value="Submit" />
+</p>
+</form>
+
+</fieldset>
+                            
+
